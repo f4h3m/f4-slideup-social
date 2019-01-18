@@ -8,8 +8,10 @@ Available social sites right now
 * twitter
 * instagram
 
+
 Demo : [link](https://f4h3m.github.io/f4-slideup-social/ "Demo link")
 -------------
+
 How to use
 -------------
 
