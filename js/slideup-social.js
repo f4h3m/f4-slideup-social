@@ -38,7 +38,17 @@
 
 
                 $('.floar-banner-wrap').prepend(
-                    '<div class="' + name[i] + '-wrap social-wrap"><div class="social-logo"><img src="img/' + name[i] + '.png" alt=""></div><div class="social-details"><h6>Keep In Touch</h6><h4><span>' + typ + ' </span><a target="_blank" href="' + link[i] + '">@' + user[i] + '</a> on <span>' + name[i] + '<span></h4></div></div>'
+                    `<div class="${name[i]}-wrap social-wrap">
+                        <div class="social-logo">
+                            <img src="img/${name[i]}.png" alt="">
+                        </div>
+                        <div class="social-details">
+                            <h6>Keep In Touch</h6>
+                            <h4>
+                                <span>${typ} </span><a target="_blank" href="${link[i]}">@${user[i]}</a> on <span>${name[i]}<span>
+                            </h4>
+                        </div>
+                    </div>`
                 );
             }
 
